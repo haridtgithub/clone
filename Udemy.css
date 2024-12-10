@@ -80,13 +80,23 @@ body
     position: absolute;
     border: solid black 2px;
     top: 200px;
-    width: 300px;
+    width: 400px;
     height: 200px;
     left: 2%;
     margin: px;
     padding: 5px;
+    animation-name: one;
+    animation-duration: 2s;
+    animation-delay: 1s;
 }
 
+@keyframes one{
+    0%{opacity: 0;
+    transform: scale(0);}
+
+    100%{opacity: 1;
+    transform: scale(1);}
+}
 .navigation-onebar{
     margin: 10px;
     padding-left: 10px ;
@@ -170,6 +180,16 @@ body
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 20px;
+    cursor: pointer;
+    border: solid 1px;
+}
+
+.catagories :hover{
+    background-color: transparent;
+    color: black;
+    transition: 2s;
+    border: solid black 1px;
+
 }
 
 .container__reco {}
@@ -256,7 +276,7 @@ body
 }
 
 .end {
-    background-color: rgb(163, 50, 163); 
+    background-color:black; 
     color: white;
     padding: 10px 10px 40px 20px;
     
@@ -264,7 +284,7 @@ body
 
 footer{
     display: flex;
-    background-color:rgb(163, 50, 163); 
+    background-color:black; 
     color: white;
 
    
