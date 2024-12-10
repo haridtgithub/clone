@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+ .navigation-onebar h1 {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+font-size: 40px;
+background-color: white;
+ }  
+  
+
+
+body
+{
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+
+
+* 
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+.image img{width:100%;
+  
+    
+}
+
+
+.mylearning{
+    position:relative;
+    cursor: pointer;
+}
+
+.learning__popup{
+    border: solid black 1px;
+    padding: 20px;
+    right: 20px;
+    position:absolute;
+    top: 60  px;
+    right: 6%;
+    background-color: white ;
+    display: none;
+}
+ 
+.mylearning:hover .learning__popup{
+    display: block;
+}
+
+.navigation-onebar {
+    color:rgb(163, 50, 163);
+    padding: 10px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: sticky;
+    top:0%;
+    background-color: white;
+    width: 98%;
+    z-index: 1;
+  
+}
+.image-offer{
+    position: absolute;
+    border: solid black 2px;
+    top: 200px;
+    width: 300px;
+    height: 200px;
+    left: 2%;
+    margin: px;
+    padding: 5px;
+}
+
+.navigation-onebar{
+    margin: 10px;
+    padding-left: 10px ;
+}
+
+.container__reco h1{
+    color:rgb(163, 50, 163);
+}
+
+
+
+
+
+.navigation {
+    padding: 10px;
+    margin: 10px;
+
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    align-items: center;
+    margin: 10px;
+    padding-top: 10px;
+
+}
+
+
+.naivigation-twobar {
+    padding: 20px;
+    width: 700px;
+    border: 1px solid black;
+    border-radius: 30px;
+    gap: 10px;
+    align-items: center;
+    
+
+
+}
+
+.naivigation-twobar input {
+    border: none;
+    width: 300px;
+    font-size: medium;
+    outline: none;
+    align-items: center;
+
+
+
+}
+
+
+.naivigation-threebar {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    
+
+
+}
+
+
+.catagories{
+    padding: bottom 20px;
+    margin-bottom: 10px;
+}
+
+
+.catagories {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    
+    padding: 5px;
+}
+
+.catagories p {
+    background-color:rgb(163, 50, 163); 
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+
+.container__reco {}
+
+.now img {
+    height: 200px;
+    width: 300px;  position: relative;
+
+
+}
+
+.now {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 15px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.now h6 {
+    font-size: medium;
+}
+
+
+
+.topics-container {
+    display: flex;
+
+    padding: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    ;
+}
+
+.topics-container p {
+    color: black;
+    border: solid rgb(163, 50, 163) 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+
+}
+
+
+.most {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.nowe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 15px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.nowe img {
+    height: 200px;
+    width: 250px;
+}
+
+.end {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.endone p {
+    padding: 6px;
+}
+
+.end {
+    background-color: rgb(163, 50, 163); 
+    color: white;
+    padding: 10px 10px 40px 20px;
+    
+}
+
+footer{
+    display: flex;
+    background-color:rgb(163, 50, 163); 
+    color: white;
+
+   
+}
+
+
+.endtwo p{
+    padding: 5px;
+}
+  
+
+
+.endone p{
+    padding: 5px;
+}
+footer p{
+    margin: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+.catagories{
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
